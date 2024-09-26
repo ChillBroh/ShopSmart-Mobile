@@ -12,7 +12,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.vendorconnect.adapter.CategoryAdapter
 import com.example.vendorconnect.adapter.ProductsAdapter
+import com.example.vendorconnect.databinding.FragmentHomeBinding
 import com.example.vendorconnect.model.Product
+import com.example.vendorconnect.viewmodel.HomeViewModel
 import java.util.ArrayList
 
 class HomeFragment : Fragment(), ProductsAdapter.Listener, CategoryAdapter.Listener {
