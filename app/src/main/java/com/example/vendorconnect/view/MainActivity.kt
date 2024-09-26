@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.view
+package com.example.vendorconnect.view
 
 import android.app.AlertDialog
 import android.content.ContentValues.TAG
@@ -8,12 +8,12 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.ahmetozaydin.ecommerceapp.R
-import com.ahmetozaydin.ecommerceapp.databinding.ActivityMainBinding
-import com.ahmetozaydin.ecommerceapp.fragment.*
-import com.ahmetozaydin.ecommerceapp.utils.network.ConnectivityObserver
-import com.ahmetozaydin.ecommerceapp.utils.network.NetworkConnectivityObserver
+
+import com.example.vendorconnect.R
 import com.example.vendorconnect.databinding.ActivityMainBinding
+import com.example.vendorconnect.fragment.HomeFragment
+import com.example.vendorconnect.util.network.ConnectivityObserver
+import com.example.vendorconnect.util.network.NetworkConnectivityObserver
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
@@ -62,19 +62,19 @@ class MainActivity : AppCompatActivity() {
                 R.id.action_home -> {
                     beginTransaction(homeFragment)
                 }
-                R.id.action_category -> {
-                    beginTransaction(CategoryFragment())
-                }
-                R.id.action_favorites -> {
-                    //val favoritesFragment = FavoriteFragment()//TODO(implement a better structure)
-                    beginTransaction(FavoriteFragment())
-                }
-                R.id.action_cart -> {
-                    beginTransaction(CartFragment())
-                }
-                R.id.action_profile -> {
-                    beginTransaction(ProfileFragment())
-                }
+//                R.id.action_category -> {
+//                    beginTransaction(CategoryFragment())
+//                }
+//                R.id.action_favorites -> {
+//
+//                    beginTransaction(FavoriteFragment())
+//                }
+//                R.id.action_cart -> {
+//                    beginTransaction(CartFragment())
+//                }
+//                R.id.action_profile -> {
+//                    beginTransaction(ProfileFragment())
+//                }
                 else -> return@setOnItemSelectedListener true
             }
             return@setOnItemSelectedListener true
