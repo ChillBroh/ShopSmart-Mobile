@@ -84,7 +84,7 @@ dependencies {
     implementation("androidx.preference:preference:1.2.1")
     implementation("androidx.preference:preference-ktx:1.2.1")
 
-//    implementation("com.stripe:stripe-android:23.1.0")
+    implementation("com.stripe:stripe-android:20.51.1")
 
 
 }
