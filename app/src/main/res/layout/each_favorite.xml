@@ -3,10 +3,10 @@
     <data>
         <variable
             name="eachFavorite"
-            type="com.example.vendorconnect.data.Favorite" />
+            type="com.ahmetozaydin.ecommerceapp.data.Favorite" />
         <variable
             name="adapter"
-            type="com.example.vendorconnect.adapter.FavoriteAdapter" />
+            type="com.ahmetozaydin.ecommerceapp.adapter.FavoriteAdapter" />
     </data>
 
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"

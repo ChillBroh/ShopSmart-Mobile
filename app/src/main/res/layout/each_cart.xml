@@ -3,13 +3,13 @@
     <data>
         <variable
             name="product"
-            type="com.example.vendorconnect.data.Cart" />
+            type="com.ahmetozaydin.ecommerceapp.data.Cart" />
         <variable
             name="adapter"
-            type="com.example.vendorconnect.adapter.CartAdapter" />
+            type="com.ahmetozaydin.ecommerceapp.adapter.CartAdapter" />
         <variable
             name="viewModel"
-            type="com.example.vendorconnect.viewmodel.CartViewModel" />
+            type="com.ahmetozaydin.ecommerceapp.viewmodel.CartViewModel" />
     </data>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"

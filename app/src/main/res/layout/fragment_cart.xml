@@ -3,10 +3,10 @@
     <data>
         <variable
             name="fragment"
-            type="com.example.vendorconnect.fragment.CartFragment" />
+            type="com.ahmetozaydin.ecommerceapp.fragment.CartFragment" />
         <variable
             name="adapter"
-            type="com.example.vendorconnect.adapter.CartAdapter" />
+            type="com.ahmetozaydin.ecommerceapp.adapter.CartAdapter" />
 
     </data>
 <androidx.constraintlayout.widget.ConstraintLayout
